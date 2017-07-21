@@ -1,0 +1,10 @@
+D:\data\培训资料\2017.07.18--测试\src\SimpleORMTests\obj\Debug\SimpleORMTests.csprojResolveAssemblyReference.cache
+D:\data\src\SimpleORMTests\obj\Debug\SimpleORMTests.csprojResolveAssemblyReference.cache
+D:\data\src\SimpleORMTests\bin\Debug\SimpleORMTests.dll
+D:\data\src\SimpleORMTests\bin\Debug\SimpleORMTests.pdb
+D:\data\src\SimpleORMTests\bin\Debug\Newegg.Internship.CSharpTraining.SimpleORM.dll
+D:\data\src\SimpleORMTests\bin\Debug\nunit.framework.dll
+D:\data\src\SimpleORMTests\bin\Debug\Newegg.Internship.CSharpTraining.SimpleORM.pdb
+D:\data\src\SimpleORMTests\bin\Debug\nunit.framework.xml
+D:\data\src\SimpleORMTests\obj\Debug\SimpleORMTests.dll
+D:\data\src\SimpleORMTests\obj\Debug\SimpleORMTests.pdb

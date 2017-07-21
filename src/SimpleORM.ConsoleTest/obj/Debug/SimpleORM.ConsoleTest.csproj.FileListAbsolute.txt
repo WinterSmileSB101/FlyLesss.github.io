@@ -1,0 +1,11 @@
+D:\data\培训资料\2017.07.18--测试\src\SimpleORM.ConsoleTest\obj\Debug\SimpleORM.ConsoleTest.csprojResolveAssemblyReference.cache
+D:\data\src\SimpleORM.ConsoleTest\obj\Debug\SimpleORM.ConsoleTest.csprojResolveAssemblyReference.cache
+D:\data\src\SimpleORM.ConsoleTest\bin\Debug\SimpleORM.ConsoleTest.exe.config
+D:\data\src\SimpleORM.ConsoleTest\bin\Debug\SimpleORM.ConsoleTest.exe
+D:\data\src\SimpleORM.ConsoleTest\bin\Debug\SimpleORM.ConsoleTest.pdb
+D:\data\src\SimpleORM.ConsoleTest\bin\Debug\Newegg.Internship.CSharpTraining.SimpleORM.dll
+D:\data\src\SimpleORM.ConsoleTest\bin\Debug\nunit.framework.dll
+D:\data\src\SimpleORM.ConsoleTest\bin\Debug\Newegg.Internship.CSharpTraining.SimpleORM.pdb
+D:\data\src\SimpleORM.ConsoleTest\bin\Debug\nunit.framework.xml
+D:\data\src\SimpleORM.ConsoleTest\obj\Debug\SimpleORM.ConsoleTest.exe
+D:\data\src\SimpleORM.ConsoleTest\obj\Debug\SimpleORM.ConsoleTest.pdb
