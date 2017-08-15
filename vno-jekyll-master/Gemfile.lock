@@ -5,6 +5,10 @@ GEM
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
     ffi (1.9.17)
+<<<<<<< HEAD
+=======
+    ffi (1.9.17-x64-mingw32)
+>>>>>>> e556a34d6fd899d1fc4697a63dd59803876e3f70
     forwardable-extended (2.6.0)
     jekyll (3.4.0)
       addressable (~> 2.4)
@@ -40,10 +44,18 @@ GEM
 
 PLATFORMS
   ruby
+<<<<<<< HEAD
+=======
+  x64-mingw32
+>>>>>>> e556a34d6fd899d1fc4697a63dd59803876e3f70
 
 DEPENDENCIES
   jekyll
   jekyll-paginate
 
 BUNDLED WITH
+<<<<<<< HEAD
    1.14.3
+=======
+   1.15.3
+>>>>>>> e556a34d6fd899d1fc4697a63dd59803876e3f70
