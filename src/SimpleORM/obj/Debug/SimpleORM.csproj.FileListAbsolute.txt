@@ -1,9 +1,0 @@
-D:\data\培训资料\2017.07.18--测试\src\SimpleORM\obj\Debug\SimpleORM.csprojResolveAssemblyReference.cache
-D:\data\src\SimpleORM\obj\Debug\SimpleORM.csprojResolveAssemblyReference.cache
-D:\data\src\SimpleORM\bin\Debug\Newegg.Internship.CSharpTraining.SimpleORM.pdb
-D:\data\src\SimpleORM\bin\Debug\nunit.framework.dll
-D:\data\src\SimpleORM\bin\Debug\nunit.framework.xml
-D:\data\src\SimpleORM\obj\Debug\Newegg.Internship.CSharpTraining.SimpleORM.pdb
-D:\data\src\SimpleORM\bin\Debug\Newegg.Internship.CSharpTraining.SimpleORM.exe
-D:\data\src\SimpleORM\obj\Debug\Newegg.Internship.CSharpTraining.SimpleORM.exe
-D:\data\src\SimpleORM\bin\Debug\Newegg.Internship.CSharpTraining.SimpleORM.exe.config
