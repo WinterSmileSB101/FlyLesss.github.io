@@ -120,7 +120,7 @@ using (Class1 cls1 = new Class1(), cls2 = new Class1())
     int  newAge = (int) refAge;
     string newAge =(String) refAge;
  ```
-16.可空类型，比如 int 默认为0，可以使他默认为null  `int ? number;`
+16.可空类型，比如 int 默认为0，可以使他默认为null  `int ? number;`<br>
 17.??运算符 
 >op1 ?? op2  : 如果第一个操作数不是null，则就等于第一个，否则等于第二个
 等同于  op1 == null ? po1 : op2
