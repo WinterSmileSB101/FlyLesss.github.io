@@ -124,3 +124,5 @@ using (Class1 cls1 = new Class1(), cls2 = new Class1())
 17.??运算符 
 >op1 ?? op2  : 如果第一个操作数不是null，则就等于第一个，否则等于第二个
 等同于  op1 == null ? po1 : op2
+
+推荐文章 [LINQ 30分钟](http://www.cnblogs.com/liulun/archive/2013/02/26/2909985.html)
