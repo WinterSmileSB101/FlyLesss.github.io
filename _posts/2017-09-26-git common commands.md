@@ -30,7 +30,8 @@ date: 2017-09-26 15:08:24.000000000 +09:00
 `git reset <file>` # 从暂存区恢复到工作文件<br>
 `git reset -- .` # 从暂存区恢复到工作文件<br>
 `git reset --hard` # 恢复最近一次提交过的状态，即放弃上次提交后的所有本次修改<br>
-`git ci <file> git ci . git ci -a `# 将git add, git rm和git ci等操作都合并在一起做<br>　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　`git ci -am "some comments"`<br>
+`git ci <file> git ci . git ci -a `# 将git add, git rm和git ci等操作都合并在一起做
+`git ci -am "some comments"`<br>
 `git ci --amend` # 修改最后一次提交记录<br>
 `git revert <$id>` # 恢复某次提交的状态，恢复动作本身也创建次提交对象<br>
 `git revert HEAD` # 恢复最后一次提交的状态<br>
@@ -72,7 +73,7 @@ Git 本地分支管理<br>
 分支合并和rebase<br>
 `git merge <branch>` # 将branch分支合并到当前分支<br>
 `git merge origin/master --no-ff` # 不要Fast-Foward合并，这样可以生成merge提交<br>
-`git rebase master <branch>` # 将master rebase到branch，相当于： git `co <branch> && git rebase master && git co master && git merge <branch>`<br>
+`git rebase master <branch>` # 将master rebase到branch，相当于： `git co <branch> && git rebase master && git co master && git merge <branch>`<br>
 
 Git补丁管理(方便在多台机器上开发同步时用)<br>
 `git diff > ../sync.patch` # 生成补丁<br>
