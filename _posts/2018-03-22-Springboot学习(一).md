@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Springboot学习(一)
+title: Springboot学习(一)HelloWorld
 date: 2018-03-22 22:08:24.000000000 +09:00
 ---
 #### Springboot介绍<br>
@@ -27,9 +27,9 @@ CLASSPATH=%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
 [下载地址](http://spring.io/tools/sts/)
 #### 建立第一个HelloWorld
 1.File--->New--->Spring Starter Project<br>
-2.![image01](../assets/images/start1.png)都是默认点击Next<br>
+2.![image01](/images/start1.png)<br>都是默认点击Next<br>
 3.把需要用到的包勾上，我这里经常使用这几个，就有显示经常使用的包。
-![image02](../assets/images/start2.png)
+![image02](/images/start2.png)
 `DevTools`:热启动，就是不用重新加载服务器<br>
 `Mybatis`:Mybatis的依赖<br>
 `Mysql`:mysql的依赖<br>
@@ -38,7 +38,7 @@ CLASSPATH=%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
 点击Finish<br>
 这里第一次建，需要些时间，他需要从网上下载依赖包。可以查看右下角的进度条。<br>
 4.建好的工程如图<br>
-![image03](../assets/images/project1.png)<br>
+![image03](/images/project1.png)<br>
 `DemoTestApplication.java`是程序的启动入口<br>
 `application.yml`或者`application.properties`都可以，是配置属性的。<br>
 5.`DemoTestApplication.java`这个类有一个`@SpringBootApplication`注解，这是整个Spring Boot的核心注解，它的目的就是开启Spring Boot的自动配置。<br>
@@ -92,6 +92,6 @@ public class DemoController {
 ```
 7.右键项目运行 Run as --->Spring boot App<br>
 8.浏览器测试<br>
-![image04](../assets/images/success1.png)
+![image04](/images/success1.png)
 
 
