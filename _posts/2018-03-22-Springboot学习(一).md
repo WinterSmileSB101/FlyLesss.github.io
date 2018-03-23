@@ -3,15 +3,15 @@ layout: post
 title: Springboot学习(一)HelloWorld
 date: 2018-03-22 22:08:24.000000000 +09:00
 ---
-#### Springboot介绍<br>
+## _Springboot介绍_<br>
 使用Spring Boot可以让我们快速创建一个基于Spring的项目，而让这个Spring项目跑起来我们只需要很少的配置就可以。<br>
-#### Springboot功能介绍<br>
+## _Springboot功能介绍_<br>
 1.独立运行的Spring项目<br>
 2.提供starter简化Maven配置<br>
 3.Spring Boot可以内嵌Tomcat，这样我们无需以war包的形式部署项目。<br>
 4.自动配置Spring <br>
 5.我目前理解到的就这些，以后了解了在补充...<br>
-#### Springboot安装环境和运行软件
+## _Springboot安装环境和运行软件_
 1.安装JDK<br>
 我的jdk安装目录是<br>
 ```
@@ -25,7 +25,7 @@ CLASSPATH=%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar
 ```
 环境配好后，安装软件
 [下载地址](http://spring.io/tools/sts/)
-#### 建立第一个HelloWorld
+## _建立第一个HelloWorld_
 1.File--->New--->Spring Starter Project<br>
 2.![image01](/images/start1.png)<br>都是默认点击Next<br>
 3.把需要用到的包勾上，我这里经常使用这几个，就有显示经常使用的包。
