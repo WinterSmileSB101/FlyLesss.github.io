@@ -59,7 +59,7 @@ spring:
 `config`: 放配置的类<br>
 `util`: 工具层<br>
 编写代码的顺序是 bean --> mapper  -->service  -->web<br>
-![curd1](../images/curd1.png)
+![curd1](/images/curd1.png)
 
 ## **编写代码**
 ### 首先是bean层
@@ -414,8 +414,8 @@ public class PartnerController {
 ```
 ## **测试结果**
 获取全部信息<br>
-![success2](../images/success2.png)
+![success2](/images/success2.png)
 获取单个信息<br>
-![success3](../images/success3.png)
+![success3](/images/success3.png)
 更新，增加...
 可以用postman工具测，我这里就不演示了，下篇文章会演示swagger，一个界面测试的插件
