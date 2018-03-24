@@ -2,6 +2,8 @@
 layout: post
 title: git知识点及常用命令
 date: 2017-09-26 15:08:24.000000000 +09:00
+categories: git
+tag: git
 ---
 本地仓库名要和远程仓库名一致 否则pull不下来
 创建本地仓库

@@ -2,6 +2,8 @@
 layout: post
 title: C# delegate and event 
 date: 2017-08-17 09:28:24.000000000 +09:00
+categories: c#
+tag: c#
 ---
 小白认真的看了看网上写的博客，发现真心好，帮我理解什么叫委托<br>
 [参考文章](http://www.tracefact.net/CSharp-Programming/Delegates-and-Events-in-CSharp.aspx)<br>

@@ -2,6 +2,8 @@
 layout: post
 title: GitHub上利用Jekyll框架搭建个人博客
 date: 2017-08-17 09:28:24.000000000 +09:00
+categories: jekyll
+tag: jekyll
 ---
 
 ### 导语：<br>
