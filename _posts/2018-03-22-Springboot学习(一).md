@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Springboot学习(一)HelloWorld
+title: Springboot Learn(一)--HelloWorld
 date: 2018-03-22 22:08:24.000000000 +09:00
+categories: Spring boot 
+tag: Spring boot
 ---
 ## _Springboot介绍_<br>
 使用Spring Boot可以让我们快速创建一个基于Spring的项目，而让这个Spring项目跑起来我们只需要很少的配置就可以。<br>
