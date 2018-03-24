@@ -222,7 +222,7 @@ PartnerMapper.xml<br>
   </collection>
 </resultMap>
 ```
-注意下面#{*****}应为bean里对应的属性名，而不是表名
+注意下面`#{*****}`应为bean里对应的属性名，而不是表名
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
@@ -418,4 +418,6 @@ public class PartnerController {
 获取单个信息<br>
 ![success3](/images/success3.png)
 更新，增加...
-可以用postman工具测，我这里就不演示了，下篇文章会演示swagger，一个界面测试的插件
+可以用postman工具测，我这里就不演示了，下篇文章会演示swagger，一个界面测试的插件<br>
+[点击查看源码](https://github.com/FlyLesss/blogCode/tree/master/demoCURD)
+
