@@ -2,7 +2,7 @@
 title: CoColar
 subtitle: Always on the road
 welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Initial stage.
+description: little little 白
 creator: <a href="http://onev.cat">@onevcat</a>
 
 url: "http://vno.onevcat.com"
@@ -38,10 +38,10 @@ comment:
 # Social
 social:
     weibo: onevcat
-    github: onevcat
+    github: https://github.com/FlyLesss
     twitter: onevcat
     gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    mail: 18383393278@163.com
 
 # Google Analytics
 ga:
