@@ -231,7 +231,7 @@ public class Partner {
 }
 
 ```
-### web层是修改
+### web层的修改
 这里增加了API的说明`@ApiOperation`，以及参数的说明`ApiImplicitParam`，可以在界面上进行显示
 ```
 package com.example.demo.web;
