@@ -17,7 +17,8 @@ Spring Cloud包含了多个子项目（针对分布式系统中涉及的多个�
 >首先正常创建项目，添加依赖包，勾选如图所示<br>
 ![create](http://p6b2ow781.bkt.clouddn.com/springcloud1.png)<br>
 
->pom.xml文件中可以看到添加了下面的依赖
+>pom.xml文件中可以看到添加了下面的依赖<br>
+
 ```
 <dependencies>
 		<dependency>
@@ -36,7 +37,8 @@ Spring Cloud包含了多个子项目（针对分布式系统中涉及的多个�
 		</dependency>
 	</dependencies>
 ```
->通过`@EnableEurekaServer`注解启动一个服务注册中心提供给其他应用进行注册
+>通过`@EnableEurekaServer`注解启动一个服务注册中心提供给其他应用进行注册<br>
+
 ```
 package com.example.demo;
 
@@ -55,8 +57,10 @@ public class TestRegApplication {
 }
 
 ```
->写配置文件
-在默认设置下，该服务注册中心也会将自己作为客户端来尝试注册它自己，所以我们需要禁用它的客户端注册行为，在application.yml进行配置。设置端口为1111
+
+>写配置文件<br>
+
+在默认设置下，该服务注册中心也会将自己作为客户端来尝试注册它自己，所以我们需要禁用它的客户端注册行为，在`application.yml`进行配置。设置端口为1111<br>
 ```
 server:
   port: 1111
@@ -68,11 +72,13 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:${server.port}/eureka/
 ```
+
 运行项目，在浏览器中访问：http://localhost:1111/ 可以看到并没有客户端注册<br>
 ![run](http://p6b2ow781.bkt.clouddn.com/springCloud2.png)
 ### 创建服务提供者
 现在我们来创建提供服务的客户端，并且在服务中心注册自己。我们创建一个提供计算a+b的服务模块<br>
 >重新创建工程,加入的依赖如下<br>
+
 ![](http://p6b2ow781.bkt.clouddn.com/springCloud3.png)
 pom.xml中主要依赖  
 ```
@@ -97,7 +103,8 @@ pom.xml中主要依赖
 		</dependency>
 	</dependencies>
 ```
->在主类中通过加上`@EnableDiscoveryClient`注解，该注解能激活Eureka中的DiscoveryClient实现，才能实现Controller中对服务信息的输出。
+>在主类中通过加上`@EnableDiscoveryClient`注解，该注解能激活Eureka中的DiscoveryClient实现，才能实现Controller中对服务信息的输出。<br>
+
 ```
 package com.example.demo;
 
@@ -118,6 +125,7 @@ public class TestServiceApplication {
 
 ```
 >写配置文件<br>
+
 `spring.application.name`属性，我们可以指定微服务的名称后续在调用的时候只需要使用该名称就可以进行服务的访问。<br>
 `eureka.client.serviceUrl.defaultZone`属性对应服务注册中心的配置内容，指定服务注册中心的位置。<br>
 注意`spring.application.name`属性的名称最好与启动类`TestServiceApplication.java`名称一致，否则可能出现错误
@@ -133,6 +141,7 @@ eureka:
       defaultZone: http://localhost:1111/eureka/
 ```
 >写controller接口,实现/add请求处理接口，通过DiscoveryClient对象，在日志中打印出服务实例的相关内容。<br>
+
 ```
 package com.example.demo;
 
@@ -165,15 +174,22 @@ public class AddController {
 }
 
 ```
->先启动注册中心的服务，在启动该程序运行 http://localhost:1111/，可以看到有注册者了<br>![run](http://p6b2ow781.bkt.clouddn.com/springCloud4.png)<br>
+
+>先启动注册中心的服务，在启动该程序运行 http://localhost:1111/，可以看到有注册者了<br>
+
+![run](http://p6b2ow781.bkt.clouddn.com/springCloud4.png)<br>
 
 >我们还可以尝试访问服务提供者提供的接口，发现访问成功。返回正确结果，在控制台中可以看到我们打印的日志<br>
+
 ![result](http://p6b2ow781.bkt.clouddn.com/SpringCloud5.png)<br>
 ![result](http://p6b2ow781.bkt.clouddn.com/SpringCloud6.png)<br>
 
 >ps:有的童鞋不知道运行多个程序，怎么切换console控制台，看图<br>
+
 ![console](http://p6b2ow781.bkt.clouddn.com/blog/console.png)<br>
 停止服务，旁边的两个叉叉可以清空加载信息哦~
+
+>问题：如果操作一遍发现有些解决不了的问题，可能是包冲突，版本不匹配引起的，建议统一版本<br>
 
 ## 源码
 注册中心：https://github.com/FlyLesss/blogCode/tree/master/test-reg<br>
