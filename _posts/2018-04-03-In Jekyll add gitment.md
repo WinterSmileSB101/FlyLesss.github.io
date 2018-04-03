@@ -19,22 +19,7 @@ Authorization callback URL 一定要写自己Github Pages的URL
 ![comments](http://p6b2ow781.bkt.clouddn.com/comment1.png)
 ###  在jekyll博客调用gitment
 如gitment项目页Readme所示，在你需要添加评论系统的地方，一般是_layout/目录下的 post.html, 添加一下代码
-```
-<div id="gitmentContainer"></div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-<script>
-var gitment = new Gitment({
-    owner: 'Your GitHub username',
-    repo: 'The repo to store comments',
-    oauth: {
-        client_id: 'Your client ID',
-        client_secret: 'Your client secret',
-    },
-});
-gitment.render('gitmentContainer');
-</script>
-```
+
 需要修改的有4个地方
 
 Your GitHub username：填写你的Github Pages博客所在的github账户名
