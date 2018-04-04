@@ -5,6 +5,8 @@ date: 2018-03-28 22:52:24.000000000 +09:00
 categories: Spring boot 
 tag: Spring boot
 ---
+* 目录
+{:toc}
 ## **Swagger介绍**
 本文将介绍RESTful API的重磅好伙伴Swagger2，它可以轻松的整合到Spring Boot中，并与Spring MVC程序配合组织出强大RESTful API文档。它既可以减少我们创建文档的工作量，同时说明内容又整合入实现代码中，让维护文档和修改代码整合为一体，可以让我们在修改代码逻辑的同时方便的修改文档说明。另外Swagger2也提供了强大的页面测试功能来调试每个RESTful API。
 ### 作用:
