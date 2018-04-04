@@ -2,7 +2,7 @@
 layout: post
 title: c# 基础知识点补充
 date: 2017-09-26 09:52:24.000000000 +09:00
-categories: c#
+categories: [c#]
 tag: C#
 ---
 * 目录

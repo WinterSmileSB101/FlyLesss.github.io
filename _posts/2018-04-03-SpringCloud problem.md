@@ -2,7 +2,7 @@
 layout: post
 title: SpringCloud problem
 date: 2018-04-03 10:05:30.000000000 +09:00
-categories: SpringCloud
+categories: [SpringCloud]
 tag: SpringCloud
 ---
 * 目录

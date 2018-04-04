@@ -2,7 +2,7 @@
 layout: post
 title: Springboot Learn(二)--CURD
 date: 2018-03-24 20:16:24.000000000 +09:00
-categories: Spring boot 
+categories: [Spring boot] 
 tag: Spring boot
 ---
 * 目录

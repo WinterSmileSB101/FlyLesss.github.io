@@ -2,7 +2,7 @@
 layout: post
 title: Springboot Learn(一)--HelloWorld
 date: 2018-03-22 22:08:24.000000000 +09:00
-categories: Spring boot 
+categories: [Spring boot] 
 tag: Spring boot
 ---
 * 目录

@@ -2,7 +2,7 @@
 layout: post
 title: Springboot AOP Problem(One)
 date: 2018-03-30 09:02:24.000000000 +09:00
-categories: problem,AOP
+categories: [problem,AOP]
 tag: problem,AOP
 ---
 * 目录

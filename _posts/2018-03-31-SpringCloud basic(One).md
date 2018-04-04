@@ -2,7 +2,7 @@
 layout: post
 title: SpringCloud basic(One)
 date: 2018-03-31 20:24:30.000000000 +09:00
-categories: SpringCloud
+categories: [SpringCloud]
 tag: SpringCloud
 ---
 * 目录

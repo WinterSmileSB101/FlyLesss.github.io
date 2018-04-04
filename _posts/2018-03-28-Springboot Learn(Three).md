@@ -2,7 +2,7 @@
 layout: post
 title: Springboot Learn(Three)--Swagger
 date: 2018-03-28 22:52:24.000000000 +09:00
-categories: Spring boot 
+categories: [Spring boot] 
 tag: Spring boot
 ---
 * 目录

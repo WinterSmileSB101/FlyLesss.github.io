@@ -2,7 +2,7 @@
 layout: post
 title: In Jekyll add gitment(添加评论系统)
 date: 2018-04-03 20:28:30.000000000 +09:00
-categories: jekyll gitment
+categories: [jekyll,gitment]
 tag: jekyll gitment
 ---
 * 目录

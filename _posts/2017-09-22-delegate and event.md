@@ -2,7 +2,7 @@
 layout: post
 title: C# delegate and event 
 date: 2017-08-17 09:28:24.000000000 +09:00
-categories: c#
+categories: [c#]
 tag: c#
 ---
 小白认真的看了看网上写的博客，发现真心好，帮我理解什么叫委托<br>
