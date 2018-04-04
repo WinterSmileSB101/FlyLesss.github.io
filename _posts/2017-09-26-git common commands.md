@@ -18,7 +18,8 @@ tag: git
 `git status`  可以查看缓冲池是干净的<br>
 `git push origin master`<br>
 
-
+* 目录
+{:toc}
 ## Git常用命令<br>
 查看、添加、提交、删除、找回，重置修改文件<br>
 `git help <command>` 显示command的help<br>

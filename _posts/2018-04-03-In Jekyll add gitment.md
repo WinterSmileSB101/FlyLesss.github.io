@@ -5,6 +5,8 @@ date: 2018-04-03 20:28:30.000000000 +09:00
 categories: jekyll gitment
 tag: jekyll gitment
 ---
+* 目录
+{:toc}
 ### 在之前搭建的Jekyll上添加评论系统（gitment）
 网上很多第三方系统，不是被墙就是被关闭，所以借鉴一篇博客搭建国内大神写的gitment系统<br>
 [https://blog.csdn.net/ggabcda/article/details/77141221](https://blog.csdn.net/ggabcda/article/details/77141221)

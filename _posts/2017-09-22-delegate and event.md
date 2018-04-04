@@ -9,7 +9,8 @@ tag: c#
 [参考文章](http://www.tracefact.net/CSharp-Programming/Delegates-and-Events-in-CSharp.aspx)<br>
 我看了这篇文章2遍，反复看，才会越来越理解，写一下自己的理解，方便以后查阅，借鉴文章中的热水器的例子<br>
 委托(delegate)：委托可以被视为一个更高级的指针，它不仅仅能把地址指向另一个函数，而且还能传递参数，返回值等多个信息。
-
+* 目录
+{:toc}
 ### Example
 ```
 public void EnglishGreeting(string name) {

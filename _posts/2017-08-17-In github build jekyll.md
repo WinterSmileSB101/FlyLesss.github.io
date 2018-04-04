@@ -5,7 +5,8 @@ date: 2017-08-17 09:28:24.000000000 +09:00
 categories: jekyll
 tag: jekyll
 ---
-
+* 目录
+{:toc}
 ### 导语：<br>
  自己搭建博客在个github上部署了好久一直是404，后来某一天才发现是自己理解错了，总结下来。
 ### GitHub Pages

@@ -5,6 +5,8 @@ date: 2018-03-24 20:16:24.000000000 +09:00
 categories: Spring boot 
 tag: Spring boot
 ---
+* 目录
+{:toc}
 ## **前言**
 上一篇文章已经介绍过用Springboot搭建HelloWorld,今天来用Springboot进行对Mysql数据库的增删改查操作基于RestFul规范。怎么创建项目见上一篇文章<br>
 ## **创建数据库**
