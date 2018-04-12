@@ -40,6 +40,7 @@ rabbitMQ
 >     55672好像也可以，直接跳转到下列位置 
 >     http://127.0.0.1:15672/#/
 >     账号和密码都是guest
+
 ![http://p6b2ow781.bkt.clouddn.com/rabbitmq.png](http://p6b2ow781.bkt.clouddn.com/rabbitmq.png)<br>
 Admin选显卡，可以创建一个springcloud账户，tags是rabbitmq的角色分类。<br>
 ![http://p6b2ow781.bkt.clouddn.com/rabbitmq1.png](http://p6b2ow781.bkt.clouddn.com/rabbitmq1.png)
