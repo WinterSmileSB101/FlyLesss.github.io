@@ -162,7 +162,7 @@ public class RabbitmqApplicationTests {
 
 ```
 ### 项目结构图
-![http://p6b2ow781.bkt.clouddn.com/rabbitmq4.png]http://p6b2ow781.bkt.clouddn.com/rabbitmq4.png()<br>
+![http://p6b2ow781.bkt.clouddn.com/rabbitmq4.png](http://p6b2ow781.bkt.clouddn.com/rabbitmq4.png)<br>
 ### 启动项目
 看到RabbitMQ Connections和Channels 连接条目<br>
 ![http://p6b2ow781.bkt.clouddn.com/rabbitmq5.png](http://p6b2ow781.bkt.clouddn.com/rabbitmq5.png)<br>
