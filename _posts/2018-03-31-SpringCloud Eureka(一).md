@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SpringCloud basic(One)
+title: SpringCloud Eureka(一)
 date: 2018-03-31 20:24:30.000000000 +09:00
 categories: [SpringCloud]
 tag: SpringCloud
