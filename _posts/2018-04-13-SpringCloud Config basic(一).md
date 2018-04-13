@@ -184,3 +184,63 @@ public class InfoController {
 ### 架构
 ![http://p6b2ow781.bkt.clouddn.com/config2.png](http://p6b2ow781.bkt.clouddn.com/config2.png)
 ## **配置高可用配置中心**
+在微服务架构中，基本每一个服务都会配置成高可用的，配置中心也一样。对上面的config-server进行改造，添加eureka的依赖，是其作为服务在服务注册中心注册。<br>
+### 改造配置服务中心
+#### 添加依赖
+```
+<dependencies>
+  	<dependency>
+  		<groupId>org.springframework.cloud</groupId>
+  		<artifactId>spring-cloud-config-server</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.springframework.cloud</groupId>
+  		<artifactId>spring-cloud-starter-eureka-server</artifactId>
+  		<version>1.1.0.RELEASE</version>
+  	</dependency>
+  </dependencies>
+```
+### 在启动类上添加`@EnableEurekaClient`注解
+开启服务发现功能，使其成为eureka的一个客户端<br>
+### 改造配置客户中心
+#### 添加依赖
+```
+<dependencies>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-config</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-netflix-eureka-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-netflix-eureka-server</artifactId>
+		</dependency>
+	</dependencies>
+```
+#### 在启动类上添加`@EnableDiscoveryClient`注解
+#### 在bootstrap.yml添加配置
+```
+server:
+  port: 4444
+spring: 
+  application:  
+    name: config-client
+  cloud:
+    config: 
+      profile:  dev
+      uri: http://localhost:3333/
+      discovery:                                  #
+        enabled:  true                            #开启通过服务访问配置服务中心
+        serviceId: cloud-config                   #指定注册的配置服务的名字
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/  # 指定服务注册中心
+```
+### 运行服务
+发现两个服务已经注册<br>
+![http://p6b2ow781.bkt.clouddn.com/config3.png](http://p6b2ow781.bkt.clouddn.com/config3.png)<br>
+运行之前的controller层，正常显示值dev
